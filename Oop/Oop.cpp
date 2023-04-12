@@ -15,4 +15,13 @@ public:
 		cout << "Masukan nilai : ";
 		cin >> nilai;
 	}
+};
+
+void Mahasiswa::printData() {
+	cout << "\nData Mahasiswa";
+	cout << "\nNIM : " << nim;
+	cout << "\nNamanya : " << nama;
+	cout << "\nNilai : " << nilai;
+
+}
 
