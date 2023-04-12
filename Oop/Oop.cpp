@@ -15,6 +15,7 @@ public:
 		cout << "Masukan nilai : ";
 		cin >> nilai;
 	}
+	void printData();
 };
 
 void Mahasiswa::printData() {
